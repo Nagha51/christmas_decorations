@@ -6,7 +6,7 @@ Main Goal:
 Create a decorator restricting access to method based on boolean operation against list of strings
 
 ```python
-from s_class import S # WIP
+from s_class import S # WIP 2 consecutive swap
 from deco import access_require # Not yet implem
 
 
@@ -39,9 +39,7 @@ def superfunction3():
 
 ```
 
-At the moment, "just" requires to append properly 2 consecutive distinct operators... Haha !
-
-(And not apply same behavior any/all on `scope_req` which has been appended for different needs)
+WIP: `And or` swap is ok but not `and or and`
 
 
 To study:
@@ -55,3 +53,5 @@ Another way to input required scopes
     Env variable of proxy variable.attribute to get() ?
         g.scopes ?
     Inject config object... hopefully not each time using a decorator class ?
+
+Interesting precedence of `lambda` vs `for` [on stack](https://stackoverflow.com/questions/6076270/python-lambda-function-in-list-comprehensions)
