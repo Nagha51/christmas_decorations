@@ -1,4 +1,4 @@
-**WIP - Failing test**
+**WIP - Everything's fine**
 ------------
 Main Goal:
 ---
@@ -6,7 +6,7 @@ Main Goal:
 Create a decorator restricting access to method based on boolean operation against list of strings
 
 ```python
-from s_class import S # WIP 2 consecutive swap
+from s_class import S # Working ?
 from deco import access_require # Not yet implem
 
 
@@ -39,7 +39,9 @@ def superfunction3():
 
 ```
 
-WIP: `And or` swap is ok but not `and or and`
+WIP: class `S()` seems to work properly, and is way more clearer with nested function
+
+TODO: 🔥🍕 or improve injection of token_scopes to `access_require`
 
 
 To study:
